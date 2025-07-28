@@ -18,7 +18,7 @@ export default function TaskDetail() {
   return (
     <div className="space-y-6">
       {/* 筛选器区域 */}
-      <Card className="bg-gradient-card border-border shadow-card">
+      <Card className="bg-card border border-border shadow-card">
         <CardHeader>
           <CardTitle className="text-lg font-semibold text-foreground">筛选条件</CardTitle>
         </CardHeader>

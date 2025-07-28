@@ -21,7 +21,7 @@ interface UserTableProps {
 
 export function UserTable({ title, users }: UserTableProps) {
   return (
-    <Card className="bg-gradient-card border-border shadow-card">
+    <Card className="bg-card border border-border shadow-card">
       <CardHeader>
         <CardTitle className="text-lg font-semibold text-foreground">{title}</CardTitle>
       </CardHeader>

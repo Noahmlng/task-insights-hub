@@ -35,7 +35,7 @@ const statusConfig = {
 
 export function TaskTable({ title, tasks }: TaskTableProps) {
   return (
-    <Card className="bg-gradient-card border-border shadow-card">
+    <Card className="bg-card border border-border shadow-card">
       <CardHeader>
         <CardTitle className="text-lg font-semibold text-foreground">{title}</CardTitle>
       </CardHeader>
